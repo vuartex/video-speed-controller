@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Hız Ayarları</title>
+</head>
+<body>
+    <h2>Ayarlar</h2>
+    <label>Varsayılan Hız: <input type="number" id="defaultSpeed" step="0.1" min="1.0" max="1.0"></label>
+    <br>
+    <label>Max Hız: <input type="number" id="maxSpeed" step="0.1" min="1.0" max="16.0"></label>
+    <br>
+    <label>Min Hız: <input type="number" id="minSpeed" step="0.1" min="0.1" max="1.0"></label>
+    <br>
+    <label><input type="checkbox" id="enableMouseWheel"> Fare Tekerleği ile Hız Kontrolü / Devre Dışı</label>
+    <br>
+    <label><input type="checkbox" id="enableSpeedPanel"> Video Üzerinde Hız Kontrol Paneli / Devre Dışı</label>
+    <br>
+    <label>Tema: Devre Dışı
+        <select id="theme">
+            <option value="light">Açık</option>
+            <option value="dark">Koyu</option>
+        </select>
+    </label>
+    <br>
+    <button id="save">Kaydet</button>
+    <script src="options.js"></script>
+</body>
+</html>
